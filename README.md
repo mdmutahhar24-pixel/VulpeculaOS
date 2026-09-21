@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-# Tauri + React + Typescript
-
-This template should help get you started developing with Tauri, React and Typescript in Vite.
-
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
-=======
 # VulpeculaOS
 This is just a normal desktop OS, right?
 
@@ -16,7 +7,11 @@ Image of Boot up screen for VulpeculaOS
 
 ## What is VulpeculaOS?
 Well VulpeculaOS is an OS, but in a desktop App. However this has a creepy twist. In short, it's a horror game!
-Features include:
+
+## Why build this project?
+I just that it would be fun and see people's reaction playing this game. It even scared me once.
+
+## Features include:
 - Loading/boot up Screen
 - Vulp (AI Chatbot) AND WHATEVER YOU DO, DO NOT REPORT ANOMALIES TO VULP (JK, that's actually what you're supposed to do)
 - Notes App
@@ -26,4 +21,3 @@ Features include:
 - Browser app
 - Sound Effects
 - and of course, the horror system
->>>>>>> origin/main
