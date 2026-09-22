@@ -359,6 +359,7 @@ const App = () => {
           <Notification
               title={notification.title}
               description={notification.description}
+              icon={<img src='logo.png' width={30} height={30} />}
               onClose={() => setNotification(null)}
           />
       )}

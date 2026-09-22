@@ -10,6 +10,14 @@ interface WebpageProps {
 }
 
 const Webpage = ({ type, title, content, children, onBack }: WebpageProps) => {
+    if (type === '???') {
+        return (
+            <div className='c-style'>
+                <button onClick={onBack}><ArrowBigLeftDashIcon /></button>
+                <h1>Ṇ̴͊̑̅e̸͕͙̓̾v̶̞̞͌̈́̃e̶͙͑r̶̛̦̮̚ ̷̧̞̑̇̐l̶̩̫͔͐̎o̶͕̖̰̽͗o̷̠̝̓k̷̺̅͂̊ ̵̪̌͌h̷͚̀̚͝e̸̪̘͛r̶̡̦̎̅͋ę̷̜͖̓̓ ̶͖̀̑͘ȁ̶͎g̶̢̭̟̈́a̸̛̠̿͗i̸͍̔n̵͎̏͑̎.̴̦̫̃́.̶̠͍̍͜.̷̠̙͛̍</h1>
+            </div>
+        );
+    }
     return (
         <div className={`webpage ${type}`}>
             {type === 'info' && (

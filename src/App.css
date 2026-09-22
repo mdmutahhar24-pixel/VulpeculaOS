@@ -1237,10 +1237,6 @@ body {
     margin: 0;
 }
 
-/* =========================
-   Search Result
-========================= */
-
 .page {
     width: min(800px, 90%);
 
@@ -1299,7 +1295,6 @@ body {
     color: #20242a;
 }
 
-/* Header */
 
 .webpage-header {
     height: 64px;
@@ -1350,9 +1345,6 @@ body {
 
     padding: 70px 30px;
 }
-
-/* Hero */
-
 .webpage-hero {
     max-width: 750px;
 
@@ -1387,8 +1379,6 @@ body {
 
     line-height: 1.6;
 }
-
-/* Content */
 
 .webpage-content {
     border-top: 1px solid #e0e4e8;
@@ -1456,7 +1446,6 @@ body {
     line-height: 1.5;
 }
 
-/* Footer */
 
 .webpage-footer {
     margin-top: 50px;
@@ -1583,4 +1572,26 @@ body {
     color: rgba(255, 255, 255, 0.3);
 
     font-size: 11px;
+}
+
+.c-style {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+
+  padding: 0 8%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.c-style h1 {
+  color: red;
+}
+
+.c-style button {
+  background-color: transparent;
+  color: white;
+  border: none;
 }

@@ -26,7 +26,7 @@ const StartupScreen = ({ onComplete }: StartupScreenProps) => {
 
             <div className={`startup-logo phase-${phase}`}>
                 <div className="startup-mark">
-                    <img src="logo.png" alt="V" width={30} height={30} />
+                    <img src="logo.png" alt="V" width={40} height={40} />
                 </div>
 
                 <h1>VULPECULAOS</h1>
