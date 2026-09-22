@@ -11,6 +11,9 @@ Well VulpeculaOS is an OS, but in a desktop App. However this has a creepy twist
 ## Why build this project?
 I just that it would be fun and see people's reaction playing this game. It even scared me once.
 
+## Important Note:
+If you want to check out what any of the files are saying, either use the terminal, or the notepad.
+
 ## Features include:
 - Loading/boot up Screen
 - Vulp (AI Chatbot) AND WHATEVER YOU DO, DO NOT REPORT ANOMALIES TO VULP (JK, that's actually what you're supposed to do)
