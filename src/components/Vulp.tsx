@@ -85,7 +85,14 @@ const Vulp = ({ onAction, windows, systemEvents, vulpHorrorMes, horrorLevel }: V
             stopTypingSound()
             playSound("response")
 
-            const finalResponse = streamedResponse || result.response;
+            const finalResponse =
+                streamedResponse.trim() ||
+                result.response?.trim() ||
+                "I'm sorry... I seem to have lost my train of thought.";
+
+            if (!streamedResponse.trim() && !result.response?.trim()) {
+                console.warn("Vulp received an empty response from the AI server.", result);
+            }
 
             if (finalResponse) {
                 setMessages(prev => {

@@ -479,7 +479,10 @@ for (const message of messages) {
     const action = actionMatch?.[1] ?? 'NONE'
 
     const responseText =
-        responseMatch?.[1]?.trim() ?? ''
+        responseMatch?.[1]?.trim() ??
+        content
+            .replace(/ACTION:\s*[A-Z_]+\s*/, '')
+            .trim()
 
     if (!validActions.includes(action)) {
         return {
